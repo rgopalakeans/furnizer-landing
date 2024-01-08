@@ -1,19 +1,19 @@
 /**** Google Font ****/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Prata&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
 
+  
 /* Variables */
-
 :root {
     /* Color */
     --body_bg: #ffffff;
     --body_color: #9a9a9a;
     --primary_color: #93712c;
-    --secondary_color: #b99140;
-    --hover_color: #b99140;
+    --secondary_color: #bd9354;
+    --hover_color: #bd9354;
     --light_color: #ffffff;
     /* Font Family */
-    --title_font: 'Prata', serif;
-    --body_font: 'Open Sans', sans-serif;
+    --title_font: 'DM Sans', sans-serif;
+    --body_font: 'DM Sans', sans-serif;
     /* Font Size Typo Variables */
     --fontsize_body: 16px;
     --heading_H1: 36px;
@@ -285,8 +285,10 @@ img {
     margin-top: 10px;
     transition: all 300ms linear;
     border: 1px solid currentColor;
-    border-radius: 0.25rem;
+    border-radius: 0;
     font-family: var(--title_font);
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 .button:hover,
